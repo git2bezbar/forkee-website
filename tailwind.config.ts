@@ -14,7 +14,7 @@ const config: Config = {
       'whiteDark': "#E3E3E3",
       'secondary': "#01092E",
       'black': "#131313",
-      'subtitle': '#B0B0B0',
+      'subtitle': '#8391A5',
       'gray': "#D9D9D9",
       'hoveredSidebarItems': '#212121',
     },

@@ -40,7 +40,7 @@ const Header = () => {
       />
       <ul
         className={`lg:hidden pt-0 p-8 gap-6 items-end font-bold flex flex-col
-          absolute bottom-0 right-0 translate-y-full duration-300 
+          fixed z-10 top-0 right-0 translate-y-[96px] duration-300 
           ${ isMenuOpened ? "translate-x-0" : "translate-x-full" }`}
       >
         <li
