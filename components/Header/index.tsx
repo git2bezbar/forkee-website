@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import menu from "@/components/icons/menu.svg";
+import menu from "@/assets/icons/menu.svg";
 
 const Header = () => {
   const [isMenuOpened, setIsMenuOpened] = useState(false);
