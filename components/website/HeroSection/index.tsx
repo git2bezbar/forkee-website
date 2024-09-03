@@ -16,11 +16,9 @@ const HeroSection = () => {
         className={`text-sm text-center text-subtitle leading-4 
           lg:text-base lg:px-16`}
       >
-        Curabitur commodo viverra lacus efficitur sollicitudin. Cras congue, 
-        velit a eleifend gravida, nibh ex laoreet augue, nec pharetra quam 
-        ipsum eget purus.
+        &quot;Forkee a transformé la façon dont je gère le site de mon restaurant en ligne. Simple, efficace, et vraiment impressionnant !&quot; - Emilie
       </p>
-      <Button link="#product">Get started</Button>
+      <Button link="#product">Voir le produit</Button>
       <Image
         className="rounded-[15px] lg:mt-16"
         src={dashboard}

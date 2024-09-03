@@ -25,12 +25,10 @@ const HighlightCard = ({ icon, title }: HighlightCardProps) => {
 
   return (
     <div
-      className={`sm:w-[300px] lg:w-[350px] p-8 flex flex-col gap-6 items-start 
-        justify-start rounded-[10px] shadow-2xl`}
+      className="sm:w-[300px] lg:w-[350px] p-8 flex flex-col gap-6 items-start justify-start rounded-[10px] shadow-2xl"
     >
       <div
-        className={`w-[64px] h-[64px] bg-primary flex items-center 
-          justify-center rounded-[10px]`}
+        className={`w-[64px] h-[64px] bg-primary flex items-center justify-center rounded-[10px]`}
       >
         <Image src={iconToDisplay()} alt="Icon" />
       </div>
